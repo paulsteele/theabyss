@@ -94,7 +94,7 @@ public class InfectedWolfEntity extends TheAbyss.Processor {
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.3);
 			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 20);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 2);
-			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 8);
+			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 7);
 			ammma = ammma.createMutableAttribute(Attributes.KNOCKBACK_RESISTANCE, 2);
 			event.put(entity, ammma.create());
 		}

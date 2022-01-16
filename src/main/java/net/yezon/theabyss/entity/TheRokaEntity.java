@@ -99,9 +99,9 @@ public class TheRokaEntity extends TheAbyss.Processor {
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.35);
-			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 300);
+			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 200);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 4);
-			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 16);
+			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 14);
 			ammma = ammma.createMutableAttribute(Attributes.KNOCKBACK_RESISTANCE, 4);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_KNOCKBACK, 1);
 			event.put(entity, ammma.create());

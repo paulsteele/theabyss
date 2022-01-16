@@ -89,9 +89,9 @@ public class NightbladeBossEntity extends TheAbyss.Processor {
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.4);
-			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 1024);
-			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 10);
-			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 10);
+			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 512);
+			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 9);
+			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 9);
 			ammma = ammma.createMutableAttribute(Attributes.KNOCKBACK_RESISTANCE, 4);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_KNOCKBACK, 2);
 			ammma = ammma.createMutableAttribute(Attributes.FOLLOW_RANGE, 250);

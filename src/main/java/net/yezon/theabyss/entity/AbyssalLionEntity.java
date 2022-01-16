@@ -94,7 +94,7 @@ public class AbyssalLionEntity extends TheAbyss.Processor {
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.34);
 			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 40);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 0);
-			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 8);
+			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 7);
 			event.put(entity, ammma.create());
 		}
 	}

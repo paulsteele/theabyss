@@ -78,7 +78,7 @@ public class NightBladeBossCloneEntity extends TheAbyss.Processor {
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.3);
-			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 150);
+			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 90);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 5);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 2);
 			ammma = ammma.createMutableAttribute(Attributes.KNOCKBACK_RESISTANCE, 2);

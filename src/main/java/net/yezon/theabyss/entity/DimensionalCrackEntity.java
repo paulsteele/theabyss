@@ -66,8 +66,8 @@ public class DimensionalCrackEntity extends TheAbyss.Processor {
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0);
-			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 100);
-			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 100);
+			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 80);
+			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 80);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 0);
 			ammma = ammma.createMutableAttribute(Attributes.KNOCKBACK_RESISTANCE, 100);
 			event.put(entity, ammma.create());

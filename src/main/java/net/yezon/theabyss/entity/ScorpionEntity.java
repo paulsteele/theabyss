@@ -98,7 +98,7 @@ public class ScorpionEntity extends TheAbyss.Processor {
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.5);
 			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 25);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 2);
-			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 8);
+			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 7);
 			ammma = ammma.createMutableAttribute(Attributes.KNOCKBACK_RESISTANCE, 2);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_KNOCKBACK, 1);
 			event.put(entity, ammma.create());

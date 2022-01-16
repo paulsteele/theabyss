@@ -99,9 +99,9 @@ public class ShatteredZombieEntity extends TheAbyss.Processor {
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.3);
-			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 40);
+			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 30);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 2);
-			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 11);
+			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 10);
 			ammma = ammma.createMutableAttribute(Attributes.KNOCKBACK_RESISTANCE, 2);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_KNOCKBACK, 2);
 			event.put(entity, ammma.create());

@@ -104,9 +104,9 @@ public class ElderEntity extends TheAbyss.Processor {
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.3);
-			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 200);
+			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 100);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 2);
-			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 14);
+			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 12);
 			ammma = ammma.createMutableAttribute(Attributes.KNOCKBACK_RESISTANCE, 2);
 			event.put(entity, ammma.create());
 		}

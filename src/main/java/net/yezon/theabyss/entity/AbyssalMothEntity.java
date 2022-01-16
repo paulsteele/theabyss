@@ -70,7 +70,7 @@ public class AbyssalMothEntity extends TheAbyss.Processor {
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.5);
 			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 10);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 2);
-			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 20);
+			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 18);
 			ammma = ammma.createMutableAttribute(Attributes.KNOCKBACK_RESISTANCE, 2);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_KNOCKBACK, 2);
 			event.put(entity, ammma.create());
