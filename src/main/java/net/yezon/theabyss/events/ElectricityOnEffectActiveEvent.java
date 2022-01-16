@@ -34,7 +34,7 @@ public class ElectricityOnEffectActiveEvent {
 		}
 		if (entity instanceof LivingEntity)
 			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SLOWNESS, (int) 30, (int) 1, (false), (false)));
-		entity.attackEntityFrom(DamageSource.MAGIC, (float) (1 + new Object() {
+		entity.attackEntityFrom(DamageSource.MAGIC, (float) (0.9f + new Object() {
 			int check(Entity _entity) {
 				if (_entity instanceof LivingEntity) {
 					Collection<EffectInstance> effects = ((LivingEntity) _entity).getActivePotionEffects();

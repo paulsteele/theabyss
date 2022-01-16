@@ -64,7 +64,7 @@ public class RingOfNightbladeItem extends TheAbyss.Processor {
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
 list.add(new StringTextComponent("\u18B1 50.0 \u18B4 100.0 \u18B9 Right Click"));
-list.add(new StringTextComponent("\u00A7bAbility\u00A7f: Manipulates the Gravity of near entities and deals 8 damage"));
+list.add(new StringTextComponent("\u00A7bAbility\u00A7f: Manipulates the Gravity of near entities and deals 7 damage"));
 list.add(new StringTextComponent("It uses \u00A7b50 percent somnium\u00A7f by default but can be improved with potions."));
 list.add(new StringTextComponent(""));
 list.add(new StringTextComponent("This item must be produced in the \u00A7bArcane Workbench.\u00A7f"));

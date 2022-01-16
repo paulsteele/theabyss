@@ -114,7 +114,7 @@ public class ApplyRingOfNightbladeEvent {
 								}
 							}
 							entityiterator.setNoGravity((true));
-							entityiterator.attackEntityFrom(DamageSource.MAGIC, (float) 4);
+							entityiterator.attackEntityFrom(DamageSource.MAGIC, (float) 3.5f);
 							new Object() {
 								private int ticks = 0;
 								private float waitTicks;
@@ -145,7 +145,7 @@ public class ApplyRingOfNightbladeEvent {
 													Collections.emptySet());
 										}
 									}
-									entityiterator.attackEntityFrom(DamageSource.MAGIC, (float) 4);
+									entityiterator.attackEntityFrom(DamageSource.MAGIC, (float) 35.f);
 									entityiterator.setNoGravity((false));
 									MinecraftForge.EVENT_BUS.unregister(this);
 								}

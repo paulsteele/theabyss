@@ -34,7 +34,7 @@ public class FirestormOnPotionActiveEvent {
 					}.compareDistOf(x, y, z)).collect(Collectors.toList());
 			for (Entity entityiterator : _entfound) {
 				if (!(entityiterator == entity)) {
-					entityiterator.attackEntityFrom(DamageSource.ON_FIRE, (float) 1);
+					entityiterator.attackEntityFrom(DamageSource.ON_FIRE, (float) .9);
 					entityiterator.setFire((int) 5);
 				}
 				if (world instanceof ServerWorld) {

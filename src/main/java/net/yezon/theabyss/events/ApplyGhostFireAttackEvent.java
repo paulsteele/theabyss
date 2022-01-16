@@ -52,7 +52,7 @@ public class ApplyGhostFireAttackEvent {
 						entityiterator.setFire((int) 15);
 						if (entityiterator instanceof LivingEntity)
 							((LivingEntity) entityiterator).addPotionEffect(new EffectInstance(Effects.GLOWING, (int) 30, (int) 0, (false), (false)));
-						entityiterator.attackEntityFrom(DamageSource.ON_FIRE, (float) 1);
+						entityiterator.attackEntityFrom(DamageSource.ON_FIRE, (float) 0.9f);
 					}
 				}
 			}
