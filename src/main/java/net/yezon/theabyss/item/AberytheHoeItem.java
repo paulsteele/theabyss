@@ -29,11 +29,11 @@ public class AberytheHoeItem extends TheAbyss.Processor {
 			}
 
 			public float getEfficiency() {
-				return 7.5f;
+				return 6f;
 			}
 
 			public float getAttackDamage() {
-				return 3f;
+				return 1f;
 			}
 
 			public int getHarvestLevel() {

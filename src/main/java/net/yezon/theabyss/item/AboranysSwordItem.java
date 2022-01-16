@@ -35,7 +35,7 @@ public class AboranysSwordItem extends TheAbyss.Processor {
 			}
 
 			public float getAttackDamage() {
-				return 5.2f;
+				return 2.2f;
 			}
 
 			public int getHarvestLevel() {
@@ -43,13 +43,13 @@ public class AboranysSwordItem extends TheAbyss.Processor {
 			}
 
 			public int getEnchantability() {
-				return 100;
+				return 15;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(AboranysGemItem.block));
 			}
-		}, 3, -2.1f, new Item.Properties().group(TheAbyssWeaponsItemGroup.tab)) {
+		}, 3, -2.4f, new Item.Properties().group(TheAbyssWeaponsItemGroup.tab)) {
 			@Override
 			@OnlyIn(Dist.CLIENT)
 			public boolean hasEffect(ItemStack itemstack) {

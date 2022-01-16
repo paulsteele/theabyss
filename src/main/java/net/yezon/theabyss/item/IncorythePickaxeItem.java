@@ -29,11 +29,11 @@ public class IncorythePickaxeItem extends TheAbyss.Processor {
 			}
 
 			public float getEfficiency() {
-				return 12f;
+				return 10.5f;
 			}
 
 			public float getAttackDamage() {
-				return 4.4f;
+				return 4.5f;
 			}
 
 			public int getHarvestLevel() {
@@ -41,13 +41,13 @@ public class IncorythePickaxeItem extends TheAbyss.Processor {
 			}
 
 			public int getEnchantability() {
-				return 42;
+				return 15;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(IncorytheGemItem.block));
 			}
-		}, 1, -3f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
+		}, 1, -2.8f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
 		}.setRegistryName("incorythe_pickaxe"));
 	}
 }

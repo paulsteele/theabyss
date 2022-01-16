@@ -41,13 +41,13 @@ public class GarnitePickaxeItem extends TheAbyss.Processor {
 			}
 
 			public int getEnchantability() {
-				return 28;
+				return 15;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(GarniteIngotItem.block));
 			}
-		}, 1, -3f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
+		}, 1, -2.8f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
 		}.setRegistryName("garnite_pickaxe"));
 	}
 }

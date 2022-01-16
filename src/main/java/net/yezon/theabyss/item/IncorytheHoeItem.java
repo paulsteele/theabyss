@@ -29,11 +29,11 @@ public class IncorytheHoeItem extends TheAbyss.Processor {
 			}
 
 			public float getEfficiency() {
-				return 12f;
+				return 10.5f;
 			}
 
 			public float getAttackDamage() {
-				return 6.3f;
+				return 1f;
 			}
 
 			public int getHarvestLevel() {
@@ -41,13 +41,13 @@ public class IncorytheHoeItem extends TheAbyss.Processor {
 			}
 
 			public int getEnchantability() {
-				return 42;
+				return 15;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(IncorytheGemItem.block));
 			}
-		}, 0, -3f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
+		}, 0, -.2f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
 		}.setRegistryName("incorythe_hoe"));
 	}
 }

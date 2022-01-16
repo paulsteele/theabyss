@@ -32,7 +32,7 @@ public class BrickedKnightSwordItem extends TheAbyss.Processor {
 			}
 
 			public float getAttackDamage() {
-				return 10f;
+				return 4f;
 			}
 
 			public int getHarvestLevel() {
@@ -40,13 +40,13 @@ public class BrickedKnightSwordItem extends TheAbyss.Processor {
 			}
 
 			public int getEnchantability() {
-				return 40;
+				return 15;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -1.5f, new Item.Properties().group(TheAbyssWeaponsItemGroup.tab)) {
+		}, 3, -2.4f, new Item.Properties().group(TheAbyssWeaponsItemGroup.tab)) {
 		}.setRegistryName("bricked_knight_sword"));
 	}
 }

@@ -33,7 +33,7 @@ public class AberytheSwordItem extends TheAbyss.Processor {
 			}
 
 			public float getAttackDamage() {
-				return 4.4f;
+				return 2.1f;
 			}
 
 			public int getHarvestLevel() {
@@ -41,13 +41,13 @@ public class AberytheSwordItem extends TheAbyss.Processor {
 			}
 
 			public int getEnchantability() {
-				return 100;
+				return 15;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(AberytheGemItem.block));
 			}
-		}, 3, -2.2000000000000002f, new Item.Properties().group(TheAbyssWeaponsItemGroup.tab)) {
+		}, 3, -2.4f, new Item.Properties().group(TheAbyssWeaponsItemGroup.tab)) {
 		}.setRegistryName("aberythe_sword"));
 	}
 }

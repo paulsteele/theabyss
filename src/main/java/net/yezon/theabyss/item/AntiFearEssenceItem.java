@@ -65,7 +65,7 @@ public class AntiFearEssenceItem extends TheAbyss.Processor {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("you have no more fear for 30 minutes"));
+			list.add(new StringTextComponent("Immune to fear for 30 minutes"));
 		}
 
 		@Override

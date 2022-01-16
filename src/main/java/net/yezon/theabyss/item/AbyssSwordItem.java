@@ -52,7 +52,7 @@ public class AbyssSwordItem extends TheAbyss.Processor {
 			}
 
 			public float getAttackDamage() {
-				return 18f;
+				return 5.2f;
 			}
 
 			public int getHarvestLevel() {
@@ -60,13 +60,13 @@ public class AbyssSwordItem extends TheAbyss.Processor {
 			}
 
 			public int getEnchantability() {
-				return 100;
+				return 15;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -1.5f, new Item.Properties().group(TheAbyssWeaponsItemGroup.tab)) {
+		}, 3, -2.4f, new Item.Properties().group(TheAbyssWeaponsItemGroup.tab)) {
 			@Override
 			public ActionResult<ItemStack> onItemRightClick(World world, PlayerEntity entity, Hand hand) {
 				ActionResult<ItemStack> retval = super.onItemRightClick(world, entity, hand);

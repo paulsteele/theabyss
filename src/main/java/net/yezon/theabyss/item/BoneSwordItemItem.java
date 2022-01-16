@@ -33,7 +33,7 @@ public class BoneSwordItemItem extends TheAbyss.Processor {
 			}
 
 			public float getAttackDamage() {
-				return 2.6f;
+				return 0f;
 			}
 
 			public int getHarvestLevel() {
@@ -41,7 +41,7 @@ public class BoneSwordItemItem extends TheAbyss.Processor {
 			}
 
 			public int getEnchantability() {
-				return 40;
+				return 10;
 			}
 
 			public Ingredient getRepairMaterial() {

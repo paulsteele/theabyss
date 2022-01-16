@@ -29,7 +29,7 @@ public class BoneShovelItem extends TheAbyss.Processor {
 			}
 
 			public float getEfficiency() {
-				return 7f;
+				return 4f;
 			}
 
 			public float getAttackDamage() {

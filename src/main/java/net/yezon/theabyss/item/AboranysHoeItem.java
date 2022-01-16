@@ -31,11 +31,11 @@ public class AboranysHoeItem extends TheAbyss.Processor {
 			}
 
 			public float getEfficiency() {
-				return 7.5f;
+				return 7f;
 			}
 
 			public float getAttackDamage() {
-				return 4.2f;
+				return 1f;
 			}
 
 			public int getHarvestLevel() {
@@ -49,7 +49,7 @@ public class AboranysHoeItem extends TheAbyss.Processor {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 0, -2f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
+		}, 0, -1f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
 			@Override
 			@OnlyIn(Dist.CLIENT)
 			public boolean hasEffect(ItemStack itemstack) {

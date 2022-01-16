@@ -29,11 +29,11 @@ public class PhantomAxeItem extends TheAbyss.Processor {
 			}
 
 			public float getEfficiency() {
-				return 14f;
+				return 8f;
 			}
 
 			public float getAttackDamage() {
-				return 13f;
+				return 9f;
 			}
 
 			public int getHarvestLevel() {
@@ -41,13 +41,13 @@ public class PhantomAxeItem extends TheAbyss.Processor {
 			}
 
 			public int getEnchantability() {
-				return 50;
+				return 15;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(PhantomIngotItem.block));
 			}
-		}, 1, -2f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
+		}, 1, -3f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
 		}.setRegistryName("phantom_axe"));
 	}
 }

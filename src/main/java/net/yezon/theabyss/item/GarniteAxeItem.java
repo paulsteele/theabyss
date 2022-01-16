@@ -29,11 +29,11 @@ public class GarniteAxeItem extends TheAbyss.Processor {
 			}
 
 			public float getEfficiency() {
-				return 9f;
+				return 7f;
 			}
 
 			public float getAttackDamage() {
-				return 12.5f;
+				return 6.5f;
 			}
 
 			public int getHarvestLevel() {
@@ -41,7 +41,7 @@ public class GarniteAxeItem extends TheAbyss.Processor {
 			}
 
 			public int getEnchantability() {
-				return 28;
+				return 15;
 			}
 
 			public Ingredient getRepairMaterial() {

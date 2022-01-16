@@ -55,7 +55,7 @@ public class AppleOfImmortalityItem extends TheAbyss.Processor {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("\u00A7bAbility\u00A7f: This apple makes you immortal for 5 seconds."));
+			list.add(new StringTextComponent("\u00A7bAbility\u00A7f: Grants immortality for 5 seconds."));
 		}
 
 		@Override

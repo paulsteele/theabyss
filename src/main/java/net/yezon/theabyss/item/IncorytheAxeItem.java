@@ -29,11 +29,11 @@ public class IncorytheAxeItem extends TheAbyss.Processor {
 			}
 
 			public float getEfficiency() {
-				return 12f;
+				return 10.5f;
 			}
 
 			public float getAttackDamage() {
-				return 13.8f;
+				return 6.8f;
 			}
 
 			public int getHarvestLevel() {
@@ -41,7 +41,7 @@ public class IncorytheAxeItem extends TheAbyss.Processor {
 			}
 
 			public int getEnchantability() {
-				return 42;
+				return 15;
 			}
 
 			public Ingredient getRepairMaterial() {

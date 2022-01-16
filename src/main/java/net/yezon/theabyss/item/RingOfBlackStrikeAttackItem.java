@@ -89,7 +89,7 @@ public class RingOfBlackStrikeAttackItem extends TheAbyss.Processor {
 				double y = entity.getPosY();
 				double z = entity.getPosZ();
 				if (true) {
-					ArrowCustomEntity entityarrow = shoot(world, entity, random, 1.5f, 2, 2);
+					ArrowCustomEntity entityarrow = shoot(world, entity, random, 1.5f, 1.8f, 2);
 					itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
 					entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.DISALLOWED;
 				}

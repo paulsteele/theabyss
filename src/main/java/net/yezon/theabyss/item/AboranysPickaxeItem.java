@@ -31,11 +31,11 @@ public class AboranysPickaxeItem extends TheAbyss.Processor {
 			}
 
 			public float getEfficiency() {
-				return 13f;
+				return 7f;
 			}
 
 			public float getAttackDamage() {
-				return 4.3f;
+				return 4f;
 			}
 
 			public int getHarvestLevel() {
@@ -49,7 +49,7 @@ public class AboranysPickaxeItem extends TheAbyss.Processor {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(AboranysGemItem.block));
 			}
-		}, 1, -2f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
+		}, 1, -1.8f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
 			@Override
 			@OnlyIn(Dist.CLIENT)
 			public boolean hasEffect(ItemStack itemstack) {

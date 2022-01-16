@@ -33,7 +33,7 @@ public class GarniteHoeItem extends TheAbyss.Processor {
 			}
 
 			public float getAttackDamage() {
-				return 3.5f;
+				return 1f;
 			}
 
 			public int getHarvestLevel() {
@@ -41,13 +41,13 @@ public class GarniteHoeItem extends TheAbyss.Processor {
 			}
 
 			public int getEnchantability() {
-				return 28;
+				return 15;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(GarniteIngotItem.block));
 			}
-		}, 0, -3f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
+		}, 0, -1f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
 		}.setRegistryName("garnite_hoe"));
 	}
 }

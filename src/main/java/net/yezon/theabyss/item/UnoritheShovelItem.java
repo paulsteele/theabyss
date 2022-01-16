@@ -29,11 +29,11 @@ public class UnoritheShovelItem extends TheAbyss.Processor {
 			}
 
 			public float getEfficiency() {
-				return 14.5f;
+				return 10.5f;
 			}
 
 			public float getAttackDamage() {
-				return 8.1f;
+				return 7f;
 			}
 
 			public int getHarvestLevel() {
@@ -41,7 +41,7 @@ public class UnoritheShovelItem extends TheAbyss.Processor {
 			}
 
 			public int getEnchantability() {
-				return 51;
+				return 15;
 			}
 
 			public Ingredient getRepairMaterial() {

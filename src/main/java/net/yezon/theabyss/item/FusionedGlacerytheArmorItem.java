@@ -57,7 +57,7 @@ public class FusionedGlacerytheArmorItem extends TheAbyss.Processor {
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{6, 6, 6, 6}[slot.getIndex()];
+				return new int[]{2, 5, 7, 3}[slot.getIndex()];
 			}
 
 			@Override

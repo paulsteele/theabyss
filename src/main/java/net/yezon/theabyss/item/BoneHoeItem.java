@@ -29,11 +29,11 @@ public class BoneHoeItem extends TheAbyss.Processor {
 			}
 
 			public float getEfficiency() {
-				return 7f;
+				return 4f;
 			}
 
 			public float getAttackDamage() {
-				return 0f;
+				return 1f;
 			}
 
 			public int getHarvestLevel() {
@@ -47,7 +47,7 @@ public class BoneHoeItem extends TheAbyss.Processor {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(FixedBoneItem.block));
 			}
-		}, 0, -3f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
+		}, 0, -2f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
 		}.setRegistryName("bone_hoe"));
 	}
 }

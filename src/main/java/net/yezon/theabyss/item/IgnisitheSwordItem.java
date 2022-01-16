@@ -41,7 +41,7 @@ public class IgnisitheSwordItem extends TheAbyss.Processor {
 			}
 
 			public float getAttackDamage() {
-				return 3f;
+				return 2.5f;
 			}
 
 			public int getHarvestLevel() {
@@ -49,13 +49,13 @@ public class IgnisitheSwordItem extends TheAbyss.Processor {
 			}
 
 			public int getEnchantability() {
-				return 100;
+				return 15;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(IgnisitheGemItem.block));
 			}
-		}, 3, -2f, new Item.Properties().group(TheAbyssWeaponsItemGroup.tab)) {
+		}, 3, -2.4f, new Item.Properties().group(TheAbyssWeaponsItemGroup.tab)) {
 			@Override
 			public boolean hitEntity(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 				boolean retval = super.hitEntity(itemstack, entity, sourceentity);

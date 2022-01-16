@@ -68,7 +68,7 @@ public class PhantomAttackItem extends TheAbyss.Processor {
 
 	public static class ItemRanged extends Item {
 		public ItemRanged() {
-			super(new Item.Properties().group(null).maxDamage(100));
+			super(new Item.Properties().group(null).maxDamage(90));
 			setRegistryName("phantom_attack");
 		}
 
@@ -93,7 +93,7 @@ public class PhantomAttackItem extends TheAbyss.Processor {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("this is the attack what an phantom does."));
+			list.add(new StringTextComponent("this is the attack that a phantom does."));
 		}
 
 		@Override
@@ -114,7 +114,7 @@ public class PhantomAttackItem extends TheAbyss.Processor {
 				double y = entity.getPosY();
 				double z = entity.getPosZ();
 				if (true) {
-					ArrowCustomEntity entityarrow = shoot(world, entity, random, 1f, 2.8, 1);
+					ArrowCustomEntity entityarrow = shoot(world, entity, random, 1f, 2.4, 1);
 					itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
 					entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.DISALLOWED;
 

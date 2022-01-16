@@ -33,7 +33,7 @@ public class FusionAxeItem extends TheAbyss.Processor {
 			}
 
 			public float getAttackDamage() {
-				return 13f;
+				return 6.8f;
 			}
 
 			public int getHarvestLevel() {
@@ -41,13 +41,13 @@ public class FusionAxeItem extends TheAbyss.Processor {
 			}
 
 			public int getEnchantability() {
-				return 30;
+				return 15;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(FusionIngotItem.block));
 			}
-		}, 1, -1f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
+		}, 1, -3f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
 		}.setRegistryName("fusion_axe"));
 	}
 }

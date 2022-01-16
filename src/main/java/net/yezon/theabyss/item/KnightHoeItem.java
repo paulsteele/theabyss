@@ -29,11 +29,11 @@ public class KnightHoeItem extends TheAbyss.Processor {
 			}
 
 			public float getEfficiency() {
-				return 15.5f;
+				return 12f;
 			}
 
 			public float getAttackDamage() {
-				return 11.3f;
+				return 1f;
 			}
 
 			public int getHarvestLevel() {
@@ -41,13 +41,13 @@ public class KnightHoeItem extends TheAbyss.Processor {
 			}
 
 			public int getEnchantability() {
-				return 51;
+				return 15;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(KnightIngotItem.block));
 			}
-		}, 0, -2f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
+		}, 0, -0f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
 		}.setRegistryName("knight_hoe"));
 	}
 }

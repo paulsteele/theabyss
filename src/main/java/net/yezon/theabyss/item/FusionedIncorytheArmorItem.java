@@ -56,12 +56,12 @@ public class FusionedIncorytheArmorItem extends TheAbyss.Processor {
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{8, 10, 10, 8}[slot.getIndex()];
+				return new int[]{4, 7, 9, 4}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantability() {
-				return 50;
+				return 15;
 			}
 
 			@Override
@@ -82,7 +82,7 @@ public class FusionedIncorytheArmorItem extends TheAbyss.Processor {
 
 			@Override
 			public float getToughness() {
-				return 10f;
+				return 4f;
 			}
 
 			@Override

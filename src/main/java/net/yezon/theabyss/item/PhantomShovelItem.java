@@ -29,11 +29,11 @@ public class PhantomShovelItem extends TheAbyss.Processor {
 			}
 
 			public float getEfficiency() {
-				return 14f;
+				return 8f;
 			}
 
 			public float getAttackDamage() {
-				return 5.8f;
+				return 5.5f;
 			}
 
 			public int getHarvestLevel() {
@@ -41,7 +41,7 @@ public class PhantomShovelItem extends TheAbyss.Processor {
 			}
 
 			public int getEnchantability() {
-				return 50;
+				return 15;
 			}
 
 			public Ingredient getRepairMaterial() {

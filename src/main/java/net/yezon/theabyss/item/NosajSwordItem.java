@@ -41,7 +41,7 @@ public class NosajSwordItem extends TheAbyss.Processor {
 			}
 
 			public float getAttackDamage() {
-				return 21f;
+				return 5.4f;
 			}
 
 			public int getHarvestLevel() {
@@ -49,13 +49,13 @@ public class NosajSwordItem extends TheAbyss.Processor {
 			}
 
 			public int getEnchantability() {
-				return 40;
+				return 15;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -1f, new Item.Properties().group(TheAbyssWeaponsItemGroup.tab)) {
+		}, 3, -2.4f, new Item.Properties().group(TheAbyssWeaponsItemGroup.tab)) {
 			@Override
 			public void inventoryTick(ItemStack itemstack, World world, Entity entity, int slot, boolean selected) {
 				super.inventoryTick(itemstack, world, entity, slot, selected);

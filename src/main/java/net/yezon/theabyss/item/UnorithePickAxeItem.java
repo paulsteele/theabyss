@@ -29,11 +29,11 @@ public class UnorithePickAxeItem extends TheAbyss.Processor {
 			}
 
 			public float getEfficiency() {
-				return 14.5f;
+				return 10.5f;
 			}
 
 			public float getAttackDamage() {
-				return 8f;
+				return 6.5f;
 			}
 
 			public int getHarvestLevel() {
@@ -41,13 +41,13 @@ public class UnorithePickAxeItem extends TheAbyss.Processor {
 			}
 
 			public int getEnchantability() {
-				return 52;
+				return 15;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(UnoritheIngotItem.block));
 			}
-		}, 1, -1.5f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
+		}, 1, -2.8f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
 		}.setRegistryName("unorithe_pick_axe"));
 	}
 }

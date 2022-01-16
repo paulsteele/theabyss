@@ -100,7 +100,6 @@ public class PhantomWandItem extends TheAbyss.Processor {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("this wand can do the attack what an phantom does."));
 		}
 
 		@Override
@@ -121,7 +120,7 @@ public class PhantomWandItem extends TheAbyss.Processor {
 				double y = entity.getPosY();
 				double z = entity.getPosZ();
 				if (true) {
-					ArrowCustomEntity entityarrow = shoot(world, entity, random, 3.5f, 2.5, 1);
+					ArrowCustomEntity entityarrow = shoot(world, entity, random, 3.5f, 2.2, 1);
 					itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
 					entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.DISALLOWED;
 					{

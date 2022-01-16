@@ -43,12 +43,12 @@ public class FusionArmorItem extends TheAbyss.Processor {
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{5, 6, 6, 5}[slot.getIndex()];
+				return new int[]{2, 4, 6, 3}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantability() {
-				return 100;
+				return 15;
 			}
 
 			@Override

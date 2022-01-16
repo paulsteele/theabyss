@@ -55,7 +55,7 @@ public class IgnisitheArmorItem extends TheAbyss.Processor {
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{4, 5, 6, 4}[slot.getIndex()];
+				return new int[]{2, 4, 6, 2}[slot.getIndex()];
 			}
 
 			@Override
@@ -81,7 +81,7 @@ public class IgnisitheArmorItem extends TheAbyss.Processor {
 
 			@Override
 			public float getToughness() {
-				return 2f;
+				return 1.5f;
 			}
 
 			@Override

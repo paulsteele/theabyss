@@ -56,7 +56,7 @@ public class GlacerytheArmorItem extends TheAbyss.Processor {
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{3, 4, 4, 3}[slot.getIndex()];
+				return new int[]{3, 4, 4, 2}[slot.getIndex()];
 			}
 
 			@Override

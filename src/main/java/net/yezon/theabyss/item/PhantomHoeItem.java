@@ -29,11 +29,11 @@ public class PhantomHoeItem extends TheAbyss.Processor {
 			}
 
 			public float getEfficiency() {
-				return 15f;
+				return 8f;
 			}
 
 			public float getAttackDamage() {
-				return 4f;
+				return 1f;
 			}
 
 			public int getHarvestLevel() {
@@ -41,13 +41,13 @@ public class PhantomHoeItem extends TheAbyss.Processor {
 			}
 
 			public int getEnchantability() {
-				return 50;
+				return 15;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(PhantomIngotItem.block));
 			}
-		}, 0, -2f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
+		}, 0, -0.5f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
 		}.setRegistryName("phantom_hoe"));
 	}
 }

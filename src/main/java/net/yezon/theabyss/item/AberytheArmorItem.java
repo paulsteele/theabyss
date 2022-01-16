@@ -43,7 +43,7 @@ public class AberytheArmorItem extends TheAbyss.Processor {
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{3, 6, 6, 3}[slot.getIndex()];
+				return new int[]{2, 4, 6, 2}[slot.getIndex()];
 			}
 
 			@Override
@@ -69,7 +69,7 @@ public class AberytheArmorItem extends TheAbyss.Processor {
 
 			@Override
 			public float getToughness() {
-				return 2.9f;
+				return 1f;
 			}
 
 			@Override

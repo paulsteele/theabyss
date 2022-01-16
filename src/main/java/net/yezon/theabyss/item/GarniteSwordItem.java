@@ -33,7 +33,7 @@ public class GarniteSwordItem extends TheAbyss.Processor {
 			}
 
 			public float getAttackDamage() {
-				return 7.5f;
+				return 2.5f;
 			}
 
 			public int getHarvestLevel() {
@@ -41,13 +41,13 @@ public class GarniteSwordItem extends TheAbyss.Processor {
 			}
 
 			public int getEnchantability() {
-				return 28;
+				return 15;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(GarniteIngotItem.block));
 			}
-		}, 3, -2.2f, new Item.Properties().group(TheAbyssWeaponsItemGroup.tab)) {
+		}, 3, -2.4f, new Item.Properties().group(TheAbyssWeaponsItemGroup.tab)) {
 		}.setRegistryName("garnite_sword"));
 	}
 }

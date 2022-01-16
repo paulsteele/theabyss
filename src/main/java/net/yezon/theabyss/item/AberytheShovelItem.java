@@ -29,11 +29,11 @@ public class AberytheShovelItem extends TheAbyss.Processor {
 			}
 
 			public float getEfficiency() {
-				return 7.5f;
+				return 6f;
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return 3.5f;
 			}
 
 			public int getHarvestLevel() {
@@ -47,7 +47,7 @@ public class AberytheShovelItem extends TheAbyss.Processor {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(AberytheGemItem.block));
 			}
-		}, 1, -2f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
+		}, 1, -3f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
 		}.setRegistryName("aberythe_shovel"));
 	}
 }

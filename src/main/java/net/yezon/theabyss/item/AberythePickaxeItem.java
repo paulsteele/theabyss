@@ -29,7 +29,7 @@ public class AberythePickaxeItem extends TheAbyss.Processor {
 			}
 
 			public float getEfficiency() {
-				return 7.5f;
+				return 6f;
 			}
 
 			public float getAttackDamage() {
@@ -47,7 +47,7 @@ public class AberythePickaxeItem extends TheAbyss.Processor {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(AberytheGemItem.block));
 			}
-		}, 1, -2f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
+		}, 1, -1.8f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
 		}.setRegistryName("aberythe_pickaxe"));
 	}
 }

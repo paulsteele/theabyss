@@ -29,7 +29,7 @@ public class BonePickaxeItem extends TheAbyss.Processor {
 			}
 
 			public float getEfficiency() {
-				return 7f;
+				return 4f;
 			}
 
 			public float getAttackDamage() {
@@ -47,7 +47,7 @@ public class BonePickaxeItem extends TheAbyss.Processor {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(FixedBoneItem.block));
 			}
-		}, 1, -3f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
+		}, 1, -2.8f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
 		}.setRegistryName("bone_pickaxe"));
 	}
 }

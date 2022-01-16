@@ -56,12 +56,12 @@ public class IncorytheArmorItem extends TheAbyss.Processor {
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{4, 7, 7, 5}[slot.getIndex()];
+				return new int[]{2, 5, 7, 3}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantability() {
-				return 45;
+				return 15;
 			}
 
 			@Override

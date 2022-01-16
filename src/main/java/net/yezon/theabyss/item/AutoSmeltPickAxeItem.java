@@ -61,12 +61,11 @@ public class AutoSmeltPickAxeItem extends TheAbyss.Processor {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -3f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
+		}, 1, -2.8f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("smelts automatically ores. (example: iron ores"));
-				list.add(new StringTextComponent("gold ores)"));
+				list.add(new StringTextComponent("Smelts ores automatically"));
 			}
 
 			@Override

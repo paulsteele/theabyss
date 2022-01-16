@@ -29,11 +29,11 @@ public class BoneAxeItem extends TheAbyss.Processor {
 			}
 
 			public float getEfficiency() {
-				return 7f;
+				return 4f;
 			}
 
 			public float getAttackDamage() {
-				return 9f;
+				return 4f;
 			}
 
 			public int getHarvestLevel() {
@@ -47,7 +47,7 @@ public class BoneAxeItem extends TheAbyss.Processor {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(FixedBoneItem.block));
 			}
-		}, 1, -3f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
+		}, 1, -2.5f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
 		}.setRegistryName("bone_axe"));
 	}
 }

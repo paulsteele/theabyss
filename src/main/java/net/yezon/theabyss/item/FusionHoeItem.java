@@ -33,7 +33,7 @@ public class FusionHoeItem extends TheAbyss.Processor {
 			}
 
 			public float getAttackDamage() {
-				return 5.5f;
+				return 1f;
 			}
 
 			public int getHarvestLevel() {
@@ -47,7 +47,7 @@ public class FusionHoeItem extends TheAbyss.Processor {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(FusionIngotItem.block));
 			}
-		}, 0, -1f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
+		}, 0, -0.5f, new Item.Properties().group(TheAbyssToolsItemGroup.tab)) {
 		}.setRegistryName("fusion_hoe"));
 	}
 }

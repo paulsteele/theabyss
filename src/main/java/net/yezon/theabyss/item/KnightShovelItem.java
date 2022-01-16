@@ -29,11 +29,11 @@ public class KnightShovelItem extends TheAbyss.Processor {
 			}
 
 			public float getEfficiency() {
-				return 14.5f;
+				return 12f;
 			}
 
 			public float getAttackDamage() {
-				return 13.1f;
+				return 7.5f;
 			}
 
 			public int getHarvestLevel() {
@@ -41,7 +41,7 @@ public class KnightShovelItem extends TheAbyss.Processor {
 			}
 
 			public int getEnchantability() {
-				return 51;
+				return 15;
 			}
 
 			public Ingredient getRepairMaterial() {
